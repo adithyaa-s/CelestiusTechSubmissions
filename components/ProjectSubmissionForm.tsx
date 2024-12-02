@@ -24,7 +24,7 @@ export function ProjectSubmissionForm() {
     try {
       const result = await submitProject(formData)
       setSubmitResult(result.success 
-        ? { success: true, message: 'Project submitted successfully!' }
+        ? { success: true, message: 'Application submitted successfully!' }
         : { success: false, message: result.error || 'An error occurred' }
       )
     } catch (error) {
