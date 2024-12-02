@@ -20,7 +20,6 @@ export default function RootLayout({
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={inter.className}>{children}
-        {children}
       </body>
     </html>
   );
